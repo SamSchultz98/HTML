@@ -1,0 +1,11 @@
+p {
+    color: blue;
+}
+
+div p{
+    color: green;
+}
+/* The # is meaning that it is an id */
+#abc{                  
+    color: crimson;
+}

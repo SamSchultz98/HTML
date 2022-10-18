@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Inline/Block</title>
+    </head>
+
+    <body>
+        <div>           <!--This is the table attribute-->
+            <table>
+                <thead> <!-- Thead lets you style the head by group, by styling the thead-->
+
+                    <tr>                <!--Tr = table row-->
+                        <th>Assessment</th>     <!--Th = table header-->
+                        <th>Score</th>           
+                    </tr>
+                </thead>
+                <tbody> <!-- The same thing as thead, groups the body so it can be styled the same-->
+
+                    <tr>
+                        <td>Git/Github</td>     <!-- Td = table data-->
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>110%</td>
+                    </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Html/Css/JS</td>
+                    <td>&nbsp;</td>     <!--"non breaking space", allows you to stylize an empty space with a border. Makes the empty space get counted as a character-->
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>            <!-- If you use Tfoot, it would come after t body-->
+            </table>
+        </div>
+        <div>                       <!--This is the header formatting-->
+            <h1>Select a Color:</h1>
+            <h6>Select a Color:</h6>
+            <select>                    <!--Makes the drop down menu and options-->
+                <option value="r">Red</option>
+                <option value="b">Blue</option>
+                <option value="w">White</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="text" value="ABC">
+        </div>
+
+
+        <div>
+            <button style="color: green;" onclick="javascript:alert('I got Clicked!')">Click Me!</button>   <!--This is the button on the screen-->
+        </div>
+
+
+            <a href="me.html" target="_blank">Me</a><br>
+            <a href="http://maxtrain.com" target="_blank">Max Technical Training</a>    <!-- The _blank means to open new tab when link is clicked. href is the url of the site you want to visit, and inbetween is what the user sees as the embedded link-->
+        <div>
+
+            <span>George</span>
+            <span>Washington</span>
+            <p>George</p>
+            <p>Washington</p>
+
+        </div>
+    </body>
+
+
+
+</html>
